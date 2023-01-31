@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Redressed-Regular;
+    src: url(../fonts/Redressed-Regular.ttf);
+}
+@font-face {
+    font-family: Mulish-SemiBold;
+    src: url(../fonts/Mulish-SemiBold.ttf);
+}
+.login {
+    background-image: url(../images/login-back.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .login-back {
+        background: #fffffff0;
+        padding: 30px;
+        font-family: Mulish-SemiBold !important;
+        margin: 50px 0px;
+        img {
+            width: 160px;
+            margin-bottom: 30px;
+        }
+        .email-password {
+            text-align: center;
+            h3 {
+                font-size: 40px;
+                margin-bottom: 60px;
+                font-family:  'FuturaPtBook' !important
+            }
+            .MuiFormControl-root {
+                width: 100%;
+                font-family: Mulish-SemiBold !important;
+                font-size: 18px;
+                .MuiInput-root:hover:not(.Mui-disabled):before {
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.87) !important;
+                }
+                .MuiInput-root:after {
+                    border-bottom: 2px solid #c3724e !important;
+                }
+            }
+            .MuiInputBase-root {
+                width: 100%;
+                padding-top: 25px;
+                font-family: Mulish-SemiBold !important;
+                font-size: 18px;
+                .MuiButtonBase-root {
+                    padding: 0px;
+                }
+            }
+            .MuiInput-root:hover:not(.Mui-disabled):before {
+                border-bottom: 1px solid rgba(0, 0, 0, 0.87) !important;
+            }
+            .MuiInput-root:after {
+                border-bottom: 2px solid #c3724e !important;
+            }
+            .text-left {
+                text-align: left !important;
+                margin-top: 3px;
+                a {
+                    font-size: 15px;
+                    color: #a3a3a3;
+                }
+            }
+            .login-btn button {
+                background: #c3724e;
+                color: white;
+                text-transform: initial;
+                padding: 7px 85px;
+                border-radius: 10px;
+                box-shadow: none;
+                font-size: 17px;
+                margin-top: 60px;
+                font-family: Mulish-SemiBold !important;
+            }
+            .register-login p {
+                margin-top: 10px;
+                color: #a3a3a3;
+                a {
+                    text-decoration: none;
+                    color: #c3724e;
+                }
+            }
+        }
+    }
+}

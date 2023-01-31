@@ -1,0 +1,215 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.inputContainer {
+    width: 100%;
+    padding-top: 10px !important;
+    font-family: Mulish-SemiBold !important;
+    font-size: 17px !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+
+
+
+
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.form_header {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.form_header h2 {
+    color: #ffff;
+}
+
+.content {
+    background-color: #ffff;
+    padding: 50px 0px;
+}
+
+.info {
+    padding: 0px 50px;
+}
+
+.form {
+    background-color: #cfb399;
+    /* height: 90vh; */
+}
+
+a {
+    text-decoration: underline !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    font-weight: 300 !important;
+    font-size: 1.2rem !important;
+}
+
+.MuiAppBar-colorPrimary {
+    color: #fff;
+    background: #d5bca3 !important;
+    box-shadow: none !important;
+    padding: 15px 0px;
+}
+
+.MuiInput-underline::before {
+    top: 30px;
+    border-bottom: 1px solid rgb(140 93 47) !important;
+}
+
+.MuiInput-underline:after {
+    top: 30px;
+    border-bottom: 1px solid rgb(140 93 47) !important;
+}
+
+.MuiTypography-colorInherit {
+    margin: auto !important;
+}
+
+.css-13r4j3i .MuiTextField-root {
+    /* margin: 8px; */
+    width: 98% !important;
+}
+
+.MuiBox-root css-13r4j3i {
+    padding: 0px 15px !important;
+}
+
+/* Icons */
+
+.css-ci5apu-MuiSvgIcon-root {
+    font-size: 1.5rem !important;
+    color: #8c5d2f !important;
+}
+
+form {
+    padding: 0px 10px;
+}
+
+.RegisterButton {
+    width: 100% !important;
+    margin: 20px 0px !important;
+    background-color: rgb(140 93 47) !important;
+}
+
+.register {
+    border-right: 2px solid rgb(140 93 47) !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.login {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.css-zqcytf-MuiButtonGroup-root {
+    box-shadow: none !important;
+}
+
+.MuiInputLabel-root {
+    color: rgb(140 93 47) !important;
+}
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+    color: rgb(140 93 47) !important;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    color: rgb(140 93 47) !important;
+}
+
+Link {
+    margin: auto !important;
+}
+
+.css-1holqaq {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+
+.navbarbg {
+    background-color: #fff8f2 !important;
+}
+.menu {
+    margin: auto;
+}
+.menu a {
+    margin: 0px 10px;
+}
+
+.navbar .logo a {
+}
+
+.menu_icons {
+    float: right;
+}
+
+.profileimg {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.footerlogo {
+    text-align: center;
+}
+
+.footer_link {
+    border-right: 2px solid #fff !important;
+    padding-right: 3px;
+}
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 576px){
+    .container{
+        max-width: 620px !important;
+    }
+} */

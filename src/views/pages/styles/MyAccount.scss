@@ -1,0 +1,152 @@
+@font-face {
+ font-family: Redressed-Regular;
+ src: url(../fonts/Redressed-Regular.ttf);
+}
+@font-face {
+ font-family: Mulish-SemiBold;
+ src: url(../fonts/Mulish-SemiBold.ttf);
+}
+.register {
+ background-image: url(../images/register.png);
+ background-repeat: no-repeat;
+ background-position: 100% 100%;
+ background-size: cover;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ .register-back {
+  background: #fffffff0;
+  padding: 30px;
+  font-family: Mulish-SemiBold !important;
+  margin: 50px 0px;
+  img {
+   width: 160px;
+  }
+  h3 {
+   font-size: 40px;
+   font-family:quigley !important;
+  }
+  .edit-icon {
+   svg {
+    color: #c3724e;
+    font-size: 30px;
+   }
+  }
+  .register-form {
+   text-align: center;
+   .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-radius: 0px;
+    border: 1px solid #ffffff3b;
+    border-bottom: 1px solid #a3a3a3;
+   }
+   .MuiFormControl-root {
+    width: 100%;
+    font-family: Mulish-SemiBold !important;
+    font-size: 18px;
+    .css-1480iag-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before {
+     border-bottom: 1px solid rgba(0, 0, 0, 0.87);
+    }
+    .css-1480iag-MuiInputBase-root-MuiInput-root:after {
+     border-bottom: 2px solid #c3724e !important;
+    }
+   }
+   .MuiInputBase-root {
+    width: 100%;
+    padding-top: 35px;
+    font-family: Mulish-SemiBold !important;
+    font-size: 18px;
+    .MuiButtonBase-root {
+     padding: 0px;
+    }
+   }
+   .css-a88p61-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.87) !important;
+   }
+   .css-a88p61-MuiInputBase-root-MuiInput-root:after {
+    border-bottom: 2px solid #c3724e !important;
+   }
+   .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 5px 10px !important;
+   }
+   .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+    height: 40px !important;
+   }
+   .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+    color: #a3a3a3;
+    text-align: left;
+    font-weight: 100 !important;
+    padding: 5px 2px !important;
+   }
+   .date-birth {
+    h5 {
+     color: #c3724e;
+     text-align: left;
+     font-family: Mulish-SemiBold;
+     margin-bottom: 0px;
+     margin-top: 35px;
+     font-size: 17px;
+    }
+    .MuiInputBase-root {
+     padding-top: 10px;
+    }
+   }
+   .register-btn button {
+    background: #c3724e;
+    color: white;
+    text-transform: initial;
+    padding: 7px 60px;
+    border-radius: 10px;
+    box-shadow: none;
+    font-size: 17px;
+    margin-top: 60px;
+    font-family: Mulish-SemiBold !important;
+   }
+   .register-login p {
+    margin-top: 10px;
+    color: #a3a3a3;
+    a {
+     text-decoration: none;
+     color: #c3724e;
+    }
+   }
+   #contained-button-file {
+    display: none;
+    border: none;
+   }
+   .css-a88p61-MuiInputBase-root-MuiInput-root:before {
+    // border-bottom: none;
+   }
+   .upload-buttons {
+    margin-top: 35px;
+    text-align: left;
+    label {
+     color: #a3a3a3;
+     font-size: 18px;
+    }
+    .MuiInput-root {
+     display: block;
+     border-radius: 5px;
+     width: 150px;
+     height: 150px;
+     border: 1px solid #a3a3a3;
+     margin-top: 5px;
+    }
+    .upload-btn {
+     position: relative;
+     display: inline-block;
+     .plus-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-13px, -4px);
+      svg {
+       font-size: 30px;
+      }
+     }
+    }
+   }
+  }
+ }
+}

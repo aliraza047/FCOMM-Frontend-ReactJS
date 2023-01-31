@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Redressed-Regular;
+  src: url(../fonts/Redressed-Regular.ttf);
+}
+@font-face {
+  font-family: Mulish-SemiBold;
+  src: url(../fonts/Mulish-SemiBold.ttf);
+}
+.login {
+  background-image: url(../images/login-back.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login .login-back {
+  background: rgba(255, 255, 255, 0.9411764706);
+  padding: 30px;
+  font-family: Mulish-SemiBold;
+  margin: 50px 0px;
+}
+.login .login-back img {
+  width: 160px;
+  margin-bottom: 30px;
+}
+.login .login-back .email-password {
+  text-align: center;
+}
+.login .login-back .email-password h3 {
+  font-size: 40px;
+  margin-bottom: 60px;
+  font-family: quigley !important;
+}
+.login .login-back .email-password .MuiFormControl-root {
+  width: 100%;
+  font-family: Mulish-SemiBold !important;
+  font-size: 18px;
+}
+.login .login-back .email-password .MuiFormControl-root .css-1480iag-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.87);
+}
+.login .login-back .email-password .MuiFormControl-root .css-1480iag-MuiInputBase-root-MuiInput-root:after {
+  border-bottom: 2px solid #c3724e !important;
+}
+.login .login-back .email-password .MuiInputBase-root {
+  width: 100%;
+  padding-top: 25px;
+  font-family: Mulish-SemiBold !important;
+  font-size: 18px;
+}
+.login .login-back .email-password .MuiInputBase-root .MuiButtonBase-root {
+  padding: 0px;
+}
+.login .login-back .email-password .css-a88p61-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.87) !important;
+}
+.login .login-back .email-password .css-a88p61-MuiInputBase-root-MuiInput-root:after {
+  border-bottom: 2px solid #c3724e !important;
+}
+.login .login-back .email-password .text-left {
+  text-align: left !important;
+  margin-top: 3px;
+}
+.login .login-back .email-password .text-left a {
+  font-size: 15px;
+  color: #a3a3a3;
+}
+.login .login-back .email-password .login-btn button {
+  background: #c3724e;
+  color: white;
+  text-transform: initial;
+  padding: 7px 60px;
+  border-radius: 10px;
+  box-shadow: none;
+  font-size: 17px;
+  margin-top: 60px;
+  font-family: Mulish-SemiBold !important;
+}
+.login .login-back .email-password .register-login p {
+  margin-top: 10px;
+  color: #a3a3a3;
+}
+.login .login-back .email-password .register-login p a {
+  text-decoration: none;
+  color: #c3724e;
+}/*# sourceMappingURL=Login.css.map */

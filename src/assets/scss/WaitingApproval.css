@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Redressed-Regular;
+  src: url(../fonts/Redressed-Regular.ttf);
+}
+@font-face {
+  font-family: Mulish-SemiBold;
+  src: url(../fonts/Mulish-SemiBold.ttf);
+}
+.waiting-approval {
+  background-image: url(../images/approval-back.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.waiting-approval .approval-back {
+  background: rgba(255, 255, 255, 0.9411764706);
+  padding: 30px;
+  font-family: Mulish-SemiBold;
+  text-align: center;
+  margin: 50px 0px;
+}
+.waiting-approval .approval-back img {
+  width: 160px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.waiting-approval .approval-back h1 {
+  font-family: Redressed-Regular;
+  margin-bottom: 50px;
+}/*# sourceMappingURL=WaitingApproval.css.map */
